@@ -2,7 +2,7 @@ name: Auto Kore
 on:
   schedule:
     # 日本時間 0:05 に実行 (UTCでは前日の 15:05)
-    - cron: '5 15 * * *'
+    # - cron: '5 15 * * *'
   workflow_dispatch:
 jobs:
   build:
